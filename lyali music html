@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layaly Al-Auns</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #6a0572, #ab83a1);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #1a1a1a;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .tickets-button {
+      background: #e91e63;
+      border: none;
+      padding: 1rem 2rem;
+      color: white;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .map, .gallery {
+      margin-top: 40px;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Layaly Al-Auns</h1>
+    <p>Join us for a magical music night with live singing and drinks – May 2, 2025 in Al-Khoudh</p>
+    <a href="#tickets"><button class="tickets-button">Buy Tickets</button></a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tickets">Tickets </a>
+    <a href="#location">Location <area shape="mawalih" coords="" href="" alt=""></a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <section id="about">
+    <h2>About the Event</h2>
+    <p>Layaly Al-Auns is an unforgettable music night taking place in the heart of Al-Khoudh. Enjoy an evening of mesmerizing vocals, vibrant energy, and a full bar with a wide selection of drinks. Don’t miss this special gathering of music lovers!</p>
+  </section>
+
+  <section id="tickets">
+    <h2>Buy Tickets</h2>
+    <p>Secure your spot now and experience the magic of Layaly Al-Auns!</p>
+    <a href="#"><button class="tickets-button">Purchase Tickets</button></a>
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <p>The event will be held in Al-Khoudh. More details coming soon.</p>
+    <div class="map">
+      <!-- Map embed or image can go here -->
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <!-- Add your uploaded photos here -->
+      <p>Photos coming soon...</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Layaly Al-Auns. All rights reserved.</p>
+  </footer>
+</body>
+</html>
